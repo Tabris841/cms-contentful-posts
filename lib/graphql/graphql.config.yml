@@ -1,0 +1,5 @@
+schema:
+  - https://graphql.contentful.com/content/v1/spaces/zw2mitoxke19:
+      headers:
+        Authorization: Bearer Fz3mnv4SKM5yh_K3FLl6BO9bNO8aH9KB15CTAYBntgQ
+documents: '**/*.graphql'

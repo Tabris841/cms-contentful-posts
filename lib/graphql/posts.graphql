@@ -1,0 +1,23 @@
+query AllPosts {
+    postCollection {
+        items {
+            sys {
+                id
+            }
+            title
+            slug
+            coverImage {
+                url
+                height
+                width
+            }
+            date
+            author {
+                name
+                picture {
+                    url
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,9 @@
+query PostById($postId: String!) {
+    post(id: $postId) {
+        title
+        slug
+        content {
+            json
+        }
+    }
+}
